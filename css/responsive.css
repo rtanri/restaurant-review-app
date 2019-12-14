@@ -1,11 +1,11 @@
 /* Media Queries */
-@media (min-width: 458px) {
+@media (min-width: 460px) {
     .filter-options {
       text-align: left;
     }
   }
   
-@media (min-width: 640px) and (max-width: 929px){
+@media (min-width: 640px) and (max-width: 950px){
     #restaurants-list li {
       max-width: 42%;
     }
