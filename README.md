@@ -3,7 +3,7 @@
 ## Table of Content
 * [Description](#description)
 * [Instruction](#instruction)
-* [Code-Dependencies] (#code-dependencies)
+* Code-Dependencies
 
 ## Description
 This is from Udacity Front-end Nanodegree project which require student to:
