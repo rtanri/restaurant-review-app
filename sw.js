@@ -20,7 +20,16 @@ const assets = [
     './img/7.jpg',
     './img/8.jpg',
     './img/9.jpg',
-    './img/10.jpg'
+    './img/10.jpg',
+    '/restaurant.html?id=1',  
+    '/restaurant.html?id=2',  
+    '/restaurant.html?id=3',  
+    '/restaurant.html?id=4',  
+    '/restaurant.html?id=5',  
+    '/restaurant.html?id=6',  
+    '/restaurant.html?id=7',  
+    '/restaurant.html?id=8',  
+    '/restaurant.html?id=9'
 ];
 
 //1. Install
@@ -35,7 +44,7 @@ self.addEventListener('install', function(event){
 //2. Activate
 self.addEventListener('activate', function(event){
     event.waitUntil(
-        .then(function(cacheName){
+        caches.keys().then(function(cacheName){
             return Promise.all(
                 cacheNames.filter(function(cacheName){
                     return cacheName.startsWith('restaurant-') &&
@@ -51,9 +60,14 @@ self.addEventListener('activate', function(event){
 //3. Fetch
 self.addEventListener('fetch', function(event){
     event.respondWith(
-        caches.match(event.request)
-        .then(function(response){
+        caches.match(event.request).then(function(response){
             return response || fetch(event.request);
         })
     );
 });
+
+self.addEventListener('message', event => {
+    if (event.data.action === 'skipWaiting') {
+      self.skipWaiting();
+    }
+  });
