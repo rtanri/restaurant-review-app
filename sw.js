@@ -44,7 +44,7 @@ self.addEventListener('install', function(event){
 //2. Activate
 self.addEventListener('activate', function(event){
     event.waitUntil(
-        caches.keys().then(function(cacheName){
+        caches.keys().then(function(cacheNames){
             return Promise.all(
                 cacheNames.filter(function(cacheName){
                     return cacheName.startsWith('restaurant-') &&
