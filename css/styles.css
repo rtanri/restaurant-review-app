@@ -52,7 +52,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 nav {
   display: flex;
   width: 100%;
-  height: 80px;
+  height: 50px;
   background-color: #01447e;
   text-align:center;
 }
@@ -66,15 +66,18 @@ nav h1 a {
   letter-spacing: 10px;
   text-transform: uppercase;
 }
+
+
 #breadcrumb {
-    padding: 0.8em;
+    padding: 1em;
     list-style: none;
     background-color: #eee;
-    font-size: 1.2em;
+    font-size: 0.8rem;
     margin: 0;
-    width: calc(50% - 80px);
+    width: 100%;
     text-align: left;
 }
+
 
 /* Display list items side by side */
 #breadcrumb li {

@@ -3,15 +3,25 @@
     .filter-options {
       text-align: left;
     }
+
+    #breadcrumb {
+      width: 100%;
+    }
   }
   
 @media (min-width: 640px) and (max-width: 950px){
     #restaurants-list li {
       max-width: 42%;
     }
+    
     #restaurants-list li h1 {
       height: 35px;
     }
+
+    #breadcrumb {
+      width: 100%;
+    }
+
   }
   
 @media (min-width: 930px) {
@@ -40,7 +50,7 @@
       width: 50%;
     }
     #breadcrumb {
-      width: calc(50% - 80px);
+      width: 100%;
     }
     #restaurant-img {
       width: 90%;
