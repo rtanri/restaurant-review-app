@@ -15,7 +15,7 @@ This is from Udacity Front-end Nanodegree project which require student to:
 In order to run the site, I recommend to:
 - Download or clone this repo,
 - Spin up the server with 'python3 -m http.server 8000' or 'python -m SimpleHTTPServer 8000',
-- Open the "index.html" in the browser.
+- Open the "localhost:8000" in the browser.
 
 ## Code Dependencies
 Starter base code from Udacity course.
