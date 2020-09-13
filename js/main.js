@@ -73,12 +73,12 @@ fillCuisinesHTML = (cuisines = self.cuisines) => {
  */
 initMap = () => {
   self.newMap = L.map('map', {
-        center: [40.722216, -73.987501],
+    center: [103.826600, 1.339800],
         zoom: 12,
         scrollWheelZoom: false
       });
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.jpg70?access_token={mapboxToken}', {
-    mapboxToken: 'pk.eyJ1IjoicnRhbnJpIiwiYSI6ImNrNDVpbDZ4MjA2dzczZnJ2aXg4bTVqNmQifQ.S-8v_hSk8mGH5m6u5bp4CA',
+    mapboxToken: 'pk.eyJ1IjoicnRhbnJpIiwiYSI6ImNrZXpzejczZTBjc2wydG54azd1eXhlb2oifQ.rNpvr8m6Lw-fuEcVV9R7kA',
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
       '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
@@ -140,6 +140,8 @@ fillRestaurantsHTML = (restaurants = self.restaurants) => {
   addMarkersToMap();
 }
 
+
+
 /**
  * Create restaurant HTML.
  */
@@ -198,3 +200,12 @@ addMarkersToMap = (restaurants = self.restaurants) => {
   });
 } */
 
+
+//MapBox additional
+var mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
+ 
+mapboxgl.accessToken = 'pk.eyJ1IjoicnRhbnJpIiwiYSI6ImNrZXpzejczZTBjc2wydG54azd1eXhlb2oifQ.rNpvr8m6Lw-fuEcVV9R7kA';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11'
+});

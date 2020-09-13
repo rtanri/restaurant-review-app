@@ -6,8 +6,8 @@
     "photograph": "1.jpg",
     "address": "171 E Broadway, New York, NY 10002",
     "latlng": {
-      "lat": 40.713829,
-      "lng": -73.989667
+      "lat": 103.826600,
+      "lng": 1.339800
     },
     "cuisine_type": "Asian",
     "operating_hours": {
@@ -45,8 +45,8 @@
     "photograph": "2.jpg",
     "address": "919 Fulton St, Brooklyn, NY 11238",
     "latlng": {
-      "lat": 40.683555,
-      "lng": -73.966393
+      "lat": 103.839820,
+      "lng": 1.300857
     },
     "cuisine_type": "Pizza",
     "operating_hours": {
@@ -84,8 +84,8 @@
     "photograph": "3.jpg",
     "address": "1 E 32nd St, New York, NY 10016",
     "latlng": {
-      "lat": 40.747143,
-      "lng": -73.985414
+      "lat": 103.843783,
+      "lng": 1.277824
     },
     "cuisine_type": "Asian",
     "operating_hours": {
@@ -123,8 +123,8 @@
     "photograph": "4.jpg",
     "address": "205 E Houston St, New York, NY 10002",
     "latlng": {
-      "lat": 40.722216,
-      "lng": -73.987501
+      "lat": 103.829726,
+      "lng": 1.287996
     },
     "cuisine_type": "American",
     "operating_hours": {
@@ -157,13 +157,13 @@
     ]
   }, {
     "id": 5,
-    "name": "Roberta's Pizza",
+    "name": "PS.Cafe Petit",
     "neighborhood": "Brooklyn",
     "photograph": "5.jpg",
     "address": "261 Moore St, Brooklyn, NY 11206",
     "latlng": {
-      "lat": 40.705089,
-      "lng": -73.933585
+      "lat": 103.833120,
+      "lng": 1.283202
     },
     "cuisine_type": "Pizza",
     "operating_hours": {
@@ -196,13 +196,13 @@
     ]
   }, {
     "id": 6,
-    "name": "Hometown BBQ",
+    "name": "Man Man Japanese Unagi",
     "neighborhood": "Brooklyn",
     "photograph": "6.jpg",
     "address": "454 Van Brunt St, Brooklyn, NY 11231",
     "latlng": {
-      "lat": 40.674925,
-      "lng": -74.016162
+      "lat": 103.841408,
+      "lng": 1.278927
     },
     "cuisine_type": "American",
     "operating_hours": {
@@ -235,13 +235,13 @@
     ]
   }, {
     "id": 7,
-    "name": "Superiority Burger",
+    "name": "Afterglow by Anglow",
     "neighborhood": "Manhattan",
     "photograph": "7.jpg",
     "address": "430 E 9th St, New York, NY 10009",
     "latlng": {
-      "lat": 40.727397,
-      "lng": -73.983645
+      "lat": 103.841705,
+      "lng": 1.280130
     },
     "cuisine_type": "American",
     "operating_hours": {
@@ -274,13 +274,13 @@
     ]
   }, {
     "id": 8,
-    "name": "The Dutch",
+    "name": "Beerfest Brewery",
     "neighborhood": "Manhattan",
     "photograph": "8.jpg",
     "address": "131 Sullivan St, New York, NY 10012",
     "latlng": {
-      "lat": 40.726584,
-      "lng": -74.002082
+      "lat": 103.787733,
+      "lng": 1.305909
     },
     "cuisine_type": "American",
     "operating_hours": {
@@ -313,13 +313,13 @@
     ]
   }, {
     "id": 9,
-    "name": "Mu Ramen",
+    "name": "Takezo Ramen",
     "neighborhood": "Queens",
     "photograph": "9.jpg",
     "address": "1209 Jackson Ave, Queens, NY 11101",
     "latlng": {
-      "lat": 40.743797,
-      "lng": -73.950652
+      "lat": 103.764673,
+      "lng": 1.315305
     },
     "cuisine_type": "Asian",
     "operating_hours": {
@@ -352,13 +352,13 @@
     ]
   }, {
     "id": 10,
-    "name": "Casa Enrique",
+    "name": "Tonito",
     "neighborhood": "Queens",
     "photograph": "10.jpg",
     "address": "5-48 49th Ave, Queens, NY 11101",
     "latlng": {
-      "lat": 40.743394,
-      "lng": -73.954235
+      "lat": 103.989840,
+      "lng": 1.359776
     },
     "cuisine_type": "Mexican",
     "operating_hours": {
